@@ -301,3 +301,48 @@ section { padding: 4rem 1rem; }
   transform: scale(1.2);
 }
 
+/* --- Mobile Fix --- */
+@media (max-width: 768px) {
+  .hero-video {
+    height: 90vh;
+  }
+
+  .hero-content {
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .hero-logo img {
+    max-width: 250px;
+    width: 70%;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-text h3 {
+    font-size: 1.1rem;
+  }
+  .hero-text p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .hero-cta a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-social {
+    bottom: 10px;
+    gap: 1.2rem;
+  }
+  .hero-social a {
+    font-size: 2rem;
+  }
+}
+
