@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>MAV | Mediterranean Association of Volunteers | Sostienici</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+<body>
+
+<!-- Header -->
+<header id="header">
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="nav-social" id="nav-menu">
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Container -->
+<div class="website-container">
+
+  <!-- Hero Logo -->
+  <section class="hero-logo-section fade-in">
+    <div class="hero-logo">
+      <img src="images/Logo_MAV-01.png" alt="Logo MAV">
+    </div>
+    <div class="hero-text">
+      <h1>Sostienici</h1>
+      <p>
+        Il tuo contributo ci aiuta a portare avanti i progetti di solidarietà e accoglienza 
+        che ogni giorno migliorano la vita di persone in difficoltà.  
+        Anche una piccola donazione può fare la differenza.
+      </p>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery-section fade-in">
+    <h2>I nostri progetti</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/1.png" alt="Progetto 1">
+        <p>Raccolta materiale da distribuire</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/2.png" alt="Progetto 2">
+        <p>Supporto psicologico</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/3.png" alt="Progetto 3">
+        <p>Volontariato attivo</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/4.png" alt="Progetto 4">
+        <p>Distribuzione di bene di prima necessità</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Card donazione -->
+  <section class="donation-section fade-in">
+    <div class="card donation-card">
+      <i class="fas fa-hand-holding-heart"></i>
+      <h2>Fai una donazione</h2>
+      <p>
+        Puoi sostenere l’Associazione MAV con una donazione libera sul nostro conto corrente:
+      </p>
+
+      <div class="iban-box">
+        <p><strong>Intestatario:</strong> Associazione MAV</p>
+        <p><strong>IBAN:</strong> IT46W0501803400000020001187</p>
+        <p><strong>Banca:</strong> Nome della Banca</p>
+        <p><strong>Causale:</strong> Donazione a sostegno dei progetti MAV</p>
+      </div>
+
+      <p>
+        Se desideri ricevere una ricevuta fiscale o maggiori informazioni, 
+        scrivici a <a href="mailto:info@associazionemav.com">info@associazionemav.com</a>.
+      </p>
+    </div>
+  </section>
+
+</div>
+
+<!-- Footer -->
+<footer class="site-footer fade-in">
+  <div class="footer-box">
+    <div class="company-data">
+      <h4>Associazione MAV</h4>
+      <p>P.IVA:93091230636</p>
+      <p>Via L. Pirandello n. 7 80024 Cardito (NA)</p>
+      <p>info@associazionemav.com</p>
+    </div>
+    <div class="footer-social">
+      <ul class="icons">
+        <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="mailto:info@associazionemav.com" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+      <p>&copy; 2025 MAV. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Script hamburger -->
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('nav-menu');
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    hamburger.classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
