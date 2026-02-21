@@ -570,3 +570,24 @@ section { padding: 4rem 1rem; }
   }
 }
 
+/* CTA GENERALE - stesso colore dell'header */
+.btn-cta {
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: 0.85rem 1.8rem;
+  background: #1f3c88; /* ← stesso colore header */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 40px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Hover leggermente più scuro */
+.btn-cta:hover {
+  background: #162e6b; /* versione più scura coerente */
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+}
